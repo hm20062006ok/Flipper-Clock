@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <router-link to="/">Go to Home</router-link>
+    <router-link to="/about">Go to About</router-link>
     <router-view></router-view>
 <!--    <div id="nav">-->
 <!--      <router-link to="/">Home</router-link>-->
@@ -8,7 +9,7 @@
 
 <!--    </div>-->
 
-            <FlipClock></FlipClock>
+            <!--<FlipClock></FlipClock>-->
 <!--        牌 外框-->
 <!--    <div class="flip down" :class="{'go': isFlipping}">-->
 <!--      &lt;!&ndash;      前面的纸牌&ndash;&gt;-->
@@ -251,5 +252,8 @@ export default {
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+body {
+  margin: 0;
 }
 </style>

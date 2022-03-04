@@ -54,6 +54,10 @@ export default {
 }
 </script>
 <style scoped>
+.home {
+  height:100vh;
+  width: 100%;
+}
 /* 整个翻牌组件容器 */
 .M-Flipper{
   display: inline-block;;
